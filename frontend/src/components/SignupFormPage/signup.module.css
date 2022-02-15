@@ -1,0 +1,134 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  width: 95%;
+  border: none;
+  border-bottom: 1px solid #6b6b6b;
+  margin: 3px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  height: 30px;
+}
+
+label {
+  width: 100%;
+  padding: 1px;
+  margin: 1px;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 2rem;
+  list-style-type: circle;
+}
+
+li {
+  padding: 3px 0px;
+  margin: 5px 0px;
+  text-decoration: none;
+}
+
+
+.header {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+.formDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 380px;
+  margin: 20px auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background: rgba(0,0,0,.8);
+  box-shadow: 0.0625rem 0.0625rem 0.625rem -2px #555555;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 290px;
+}
+
+input {
+  color: black;
+  padding: 5px;
+  border-radius: 6px;
+}
+
+.submitBtn {
+  width: 75%;
+  background-color: green;
+  color: white;
+  font-weight: 800;
+  padding: 5px;
+  margin: 2px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.errors {
+  color: red;
+  display: flex;
+  
+  flex-wrap: wrap;
+  width: 350px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding-bottom: 30px;
+}
+
+.secretCode {
+  display: flex;
+  /* flex-direction: column; */
+  position: relative;
+}
+
+#secretCode_text {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  font-size: .8rem;
+  color: green;
+  flex-wrap: wrap;
+  background: white;
+  border-radius: 10px;
+  padding: 3px;
+  border: 2px black solid;
+  
+}
+
+.btn {
+  font-size: .8;
+  width: fit-content;
+  height: fit-content;
+}
+
+.container {
+  display: flex;
+}
+
+.redirect {
+  margin: 10px;
+  color: green;
+}
